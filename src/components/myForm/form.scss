@@ -1,0 +1,35 @@
+.category {
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.categoryItems{
+    font-size: 15pt;
+    user-select: none;
+    display: block;
+    width: 20%;
+    padding-top: 1rem;
+    color:
+    #bdc3c7;
+    cursor: pointer;
+    background-color:
+        #ecf0f1;
+        transition-property: background-color, color;
+        transition-duration: 200ms;
+    }
+
+
+
+.categoryItems:hover {
+    color: 
+    #fdc526;
+}
+
+#student{
+    border:1px solid orange;
+    color:orange;
+}

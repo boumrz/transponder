@@ -1,0 +1,12 @@
+.up-events{
+    display: grid;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 15px; 
+}
+
+.main{
+    min-height: 90vh;
+}

@@ -1,0 +1,72 @@
+.archive-categories-list{
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+    .archive-category{
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: 0 10px;
+
+        .archive-category-title {
+            text-align: center;
+        }
+
+        .archive-category-img {
+            height: 50px;
+            width: 50px;
+            border: solid;
+            border-radius: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50%;
+        }
+
+        .volunteering{
+            background: url('https://img.icons8.com/material/96/000000/lifebuoy--v1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50%;
+
+        }
+
+        .culture{
+            background-image: url('https://img.icons8.com/material/96/000000/university--v1.png');
+            
+        }
+
+        .education{
+            background-image: url('https://img.icons8.com/material/96/000000/literature--v1.png');
+        
+        }
+
+        .entertainment{
+            background-image: url('https://img.icons8.com/material/96/000000/carousel.png');
+            
+        }
+
+        .sport{
+            background-image: url('https://img.icons8.com/material/144/000000/volleyball-2.png');
+            
+        }
+    }
+}
+
+.up-events{
+    display: grid;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 15px; 
+}
+
+.main{
+    min-height: 90vh;
+}

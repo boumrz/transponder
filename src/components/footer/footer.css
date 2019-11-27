@@ -1,0 +1,58 @@
+.footer-container {
+    position: relative;
+    background-image: url("../assets/images/footer.jpg");
+    margin-left: -2em;
+    height: 8.5em;
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .logo img {
+    height: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    padding-left: 10em;
+}
+
+.footer-container h1 {
+    display: flex;
+    font-size: 0.8em;
+    color: white;
+    max-width: 1em;
+    text-align: center;
+    padding-left: 13em;
+    margin-top: -1em;
+}
+
+.social-networks {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+}
+
+.social-networks img {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    height: 2em;
+}
+
+.under-social-networks {
+    text-align: center;
+}
+
+.under-social-networks .cap {
+    height: 0.6em;
+}
+
+.contacts {
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
+
+.contacts img {
+    display: flex;
+    margin-top: 0.5em;
+    height: 1.2em;
+}

@@ -1,0 +1,12 @@
+.button-add-event {
+    width: 12.5em;
+    color: white;
+    background: #fdc526;
+    border: 1px solid #fdc526;
+    margin: 3% 0% 3% 50%;
+}
+
+.button-add-event:hover {
+    border: 2px solid #fde308;
+    cursor: pointer;
+}
